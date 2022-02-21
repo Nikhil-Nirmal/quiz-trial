@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin&family=Offside&display=swap');
+html {
+    scroll-behavior: smooth;
+}   
+
+body {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+.logo {
+    margin: 4rem;
+    text-align: left;
+    color:#9e0101;
+    font-size: 2.5rem;
+    font-family: 'M PLUS Code Latin', sans-serif;
+}
+.main-text {
+    width: 70%;
+    font-size: 4rem;
+    margin: 10rem auto 20rem auto ;
+}
+
+.card {
+    color: #9e0101;
+    font-family: 'M PLUS Code Latin', sans-serif;
+}
+
+.quiz {
+    background-color: #612626;
+    padding: 3rem 1rem ;
+    width: 70%;
+    margin: 2rem auto 4rem auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.smooth-scroll-text{
+    color: #9e0101;
+    margin-right:1rem ;
+}
+
+.smooth-scroll {
+    background-color: none;
+}
+
+.card-link {
+    text-decoration: none;
+}
+
+.smooth-scroll-text:hover {
+    background-color: #9e0101;
+    color: white;
+    transition: 800ms;  
+}
